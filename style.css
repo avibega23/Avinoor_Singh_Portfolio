@@ -137,18 +137,22 @@ ul {
 }
 .myimage {
   position: absolute;
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
   object-fit: contain;
+  border-radius: 400px;
 }
 .imagediv {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
   /* object-fit: cover; */
   position: relative;
-  width: 450px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
   margin-bottom: 0px;
-  margin-top: 80px;
+  margin-top: 120px;
   margin-left: 200px;
   border: 5px solid white;
-  border-radius: 10px;
+  border-radius: 400px;
 }
